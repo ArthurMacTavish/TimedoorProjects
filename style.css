@@ -1,0 +1,194 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-family: 'Caveat', sans-serif;
+    font-size: 48px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 48px;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+header nav * {
+    margin-left: 12px;
+}
+
+/* BODY: */
+/* Jumbotron */
+.jumbotron {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jumbotron .left {
+    width: 100%
+}
+
+.jumbotron .left h1 {
+    margin: 24px 0px;
+}
+
+.jumbotron .left .top {
+    font-size: 48px;
+}
+
+.jumbotron .left hr {
+    border: 3px solid #6D62FF;
+}
+
+.jumbotron .right {
+    width: 45%
+}
+
+.jumbotron .right img {
+    width: 100%;
+}
+
+/* Main Content */
+/* Aside */
+
+.main {
+    text-align: center;
+}
+
+.main .within {
+    display: flex;
+    flex-direction: row;
+    gap: 24px
+}
+
+.main .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    max-width: 250px;
+    gap: 24px;
+    padding: 24px;
+    justify-content: center;
+
+    border-radius: 12px;
+    border: 6px #9189ff solid;
+}
+
+.main .left * {
+    margin: 0;
+}
+
+.main .left h1 {
+    font-size: 36px;
+}
+
+.main .left img {
+    max-width: 50%;
+    border-radius: 50%;
+    border: 6px solid #6D62FF;
+}
+
+.main .left .dis-like {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.main .left .dis-like * {
+    font-size: 36px;
+}
+
+/* QUADRANTS */
+.main .right .stacks {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+.main .right .half {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+}
+
+.main .right .each {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+
+    border-radius: 12px;
+    border: 6px #9189ff solid;
+
+    width: 100%;
+}
+
+.main .right .each * {
+    margin: 0;
+}
+
+.main .right .each img {
+    border-radius: 4px;
+}
+
+/* video Article */
+.videoArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px
+}
+
+.videoArticle * {
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #6D62FF;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    align-items: center;
+}
+
+footer hr {
+    width: 100%;
+    border: white 2px solid
+}
+
+footer * {
+    font-family: 'Caveat', sans-serif;
+    margin: 0;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: row;
+    gap: 24px
+}
+
+footer .social * {
+    font-size: 36px
+}
